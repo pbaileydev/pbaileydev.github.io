@@ -1,6 +1,12 @@
-
+#basic h2{
+    color:white;
+}
 #basic{
+    border-top:5px solid white;
+    padding-top: 50px;
+    height: 250px;
     background-color: lightskyblue;
+    opacity: 0.75px;
     left: 0;
     right: 0;
     position: relative;
@@ -9,21 +15,56 @@
     align-content: initial;
 }
 #Phillip{
-    background-color: white;
+    height: 250px;
+    padding-top:50px;
+    padding-left: 50px;
+    border-top:5px solid white;
+    background-color: lightblue;
     position: relative;
     left: 0;
+    font-weight: 25px;
     right: 0;
     font-size: large;
-    color:lightseagreen !important;
+    color:white;
     vertical-align: middle;
+    overflow: hidden;
+}
+#Phillip a{
+    padding: 5px;
+    border: 5px solid lightskyblue;
+    color: white;
+    background-color: lightskyblue;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: x-large;
+    text-decoration: none;
+}
+#AboutMe{
+    text-align: left;
+    float: left;
+}
+#ProfilePic img{
+    float: left;
+    border-radius:100px;
 }
 #easyalarm{
+    border-top:5px solid white;
+    padding-top:50px;
+    height: 250px;
     left: 0;
     right: 0;
     position: relative;
-    background-color: lightseagreen;
-    font-size: small;
+    background-color: lightblue;
+    font-weight: thin;
     vertical-align: middle;
+}
+#easyalarm h2{
+    color:white;
+    font-size: large;
+}
+img{
+    border: 5px solid white; 
+    border-radius: 5px;
 }
 #parent{
     position: absolute;
@@ -31,22 +72,29 @@
     right: 0;
 }
 h2{
-    color:white
+    color:white;
+    font-weight: 25px;
 }
 h3{
     color:white;
     font-size: large;
+    font-weight: 25px;
 }
 #end{
+    background-color: lightskyblue;
+    border-top:5px solid white;
     position: relative;
     left: 0;
     right: 0;
+}
+#end h2{
+    color:white;
 }
 body{
     color: gray;
     background-color: lightskyblue;
     align-content: center;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0;
+    font-family: Lucida Sans;
+    text-decoration: none;
 }
