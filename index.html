@@ -5,7 +5,7 @@
     <meta name = "viewport" content="width=device-width">
     <title>pbaileyapps</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="index.js"></script>
 </head>
 <body>
     <h1>Phillip Bailey - App Developer</h1>
@@ -15,21 +15,25 @@
         <div id="ProfilePic">
             <img src= "Phil.jpg"width="200" height="200"/>
             <h2>Hello, I'm Phillip and I make apps. Curious? Scroll down to see what I've made.</h2>
-            <button><a href ="https://github.com/pbaileydev?tab=repositories">My GitHub repositories</a></button>
+            <button onclick="gitRepo()">My GitHub repositories</button>
         </div>  
     </div>
     <div id ="basic">
-        <img  src = "basicupdate.jpg" width="200" height="200" />
-        <h2>Basic - A Simple Note-Taker</h2>
-        <a href =https://play.google.com/store/apps/developer?id=Phillip+Bailey>Download on Google Play</a>
+        <img id="basicimg" src = "basicupdate.jpg" width="200" height="200" />
+        <br>
+        <br>
+        <button onclick="googlePlay()">Download on GooglePlay</button>
     </div>
     <div id ="easyalarm">
         <img src = "Screenshot (2).png" width="400" height="200"/>
-        <h2><a href="https://github.com/pbaileydev/SolarSystem"> SolarSystem </a></h2>
+        <h2><button onclick="solar()"> SolarSystem </a></h2>
     </div>
     <div id ="Mathmania">
         <img  src = "MathManiaLogo.jpg" width="200" height="200" />
-        <h2>Mathmania+</h2>
+        <br>
+        <br>
+        <button onclick="mathMania()">Mathmania+</button>
+        </div>
     <div id="end">
         <div id="Reviews">
         <h2>Reviews:</h>
