@@ -8,5 +8,5 @@ function solar(){
     window.location.href='https://github.com/pbaileydev/SolarSystem'
 }
 function mathMania(){
-    window.location.href='https://github.com/pbaileydev/SolarSystem'
+    window.location.href='https://github.com/pbaileydev/MathMania'
 }
