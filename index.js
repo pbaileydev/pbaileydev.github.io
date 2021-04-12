@@ -10,3 +10,7 @@ function solar(){
 function mathMania(){
     window.location.href='https://github.com/pbaileydev/MathMania'
 }
+const gitButton = document.getElementById("gitButton");
+gitButton.addEventListener("mouseenter", ()=>{
+    gitButton.style.backgroundColor = "white";
+});
