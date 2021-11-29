@@ -84,6 +84,16 @@ img{
     left: 0;
     right: 0;
 }
+#parentTwo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto auto auto;
+    row-gap: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+}
 h1{
     color: lightslategray;
     font-weight: lighter;
@@ -101,7 +111,6 @@ h3{
 #end{
     height: fit-content;
     position: relative;
-    background-color: white;
     border-top:2px solid lightslategray;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -116,7 +125,7 @@ a{
 
 body{
     color: gray;
-    background-color: white;
+    background:linear-gradient(white,lightblue);
     align-content: center;
     text-align: center;
     font-weight: lighter;

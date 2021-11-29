@@ -1,3 +1,4 @@
+
 function gitRepo() {
     window.location.href='https://github.com/pbaileydev?tab=repositories'
 }
@@ -11,6 +12,6 @@ function mathMania(){
     window.location.href='https://github.com/pbaileydev/MathMania'
 }
 const gitButton = document.getElementById("gitButton");
-gitButton.addEventListener("mouseenter", ()=>{
+gitButton.addEventListener('mouseenter', e=>{
     gitButton.style.backgroundColor = "white";
 });
