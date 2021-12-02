@@ -188,7 +188,19 @@ body{
         height: 35px;
         border-radius: 100%;
     }
+    #parent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     #Phillip{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #parentTwo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #end{
         padding-left: 10px;
         padding-right: 10px;
     }
