@@ -4,96 +4,150 @@
     <meta charset="UTF-8">
     <meta name = "viewport" content="width=device-width">
     <title>Phillip Bailey</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <script src="index.js"></script>
 </head>
-<body>
+<body >
     
-    <div id="Phillip">
-        <span id="chapters">
-            <a href="#Phillip">About</a>
-            <a href="#parent">Projects</a>
-            <a href="#end">Links</a>
-        </span>
+    <div id="Phillip" class="container-fluid p-5 mb-5  bg-primary text-white">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+            </li>
+        <li class="nav-item">
+            <a class = "nav-link" href="#end">Connect</a>
+        </li>
+        </ul>
+            </div>
+        </nav>
         <br>
-       <h1>Hi. I'm Phillip and I make apps.</h1>
+        <h1 class="display-4">Hi. I'm Phillip and I make apps.</h1>
        <br>
         <div id="ProfilePic">
             <img src= "Phil.jpg"width="200" height="200"/>
             <br>
-            <h2>Curious? Scroll down to see what I've worked on.</h2>
+            <h2>Curious? Scroll down to learn more.</h2>
             <br>
-            <button id = "gitButton" onclick="gitRepo()">My GitHub Repositories</button>
+            <button class="btn btn-outline-light btn-lg" id = "gitButton" onclick="gitRepo()">My GitHub Repositories</button>
         </div>  
     </div>
 
     <br>
-    <h1 style="margin: 10px;">- Android Projects -</h1>
-    <br>
-    <div style="background: linear-gradient(white,#eceff1)">
-    <div id="parent">
 
-    <div >
-        
+    <div id="about" class="container pb-5">
+        <h1>- About -</h1>
+        <p><h2>I am a passionate developer and enjoy building both web and mobile apps. I have thoroughly enjoyed honing my skills by working on both personal and commercial projects. I enjoy experimenting with 
+            new libraries and technologies. In my spare time, I enjoy writing tutorials for both new and seasoned developers.
+        </h3></p>
     </div>
-    <div  class="projectItems">
-        <a href="https://play.google.com/store/apps/developer?id=Phillip+Bailey">
-            <img src ="basicupdate.jpg">
-            <h2>Basic - A Simple Notetaker</h2>
-        </a>
-    </div>
-
-    <div  class="projectItems">
-        <a href="https://github.com/pbaileydev/MathMania">
-        <img src="MathManiaLogo.jpg">
-        <h2>Mathmania+</h2>
-    </a>
-    </div>
-    <div>
-        
-        
-    </div>
-    <div>
-        
-       
-    </div>
-    <div  class="projectItems">
-        <a href="https://play.google.com/store/apps/details?id=com.pbaileyapps.quickglanceinventory">
-        <img src="https://play-lh.googleusercontent.com/gYV80AMtEWpeAgf-pqvLCEAO2zq9VEFX2Up85O6Fbpld9nc_OrkYAm6M8aa-i89xTxA=s180-rw">
-        <h2>Quick Glance Inventory</h2>
-    </a>
-    </div>
-    <div  class="projectItems">
-        <a href="https://play.google.com/store/apps/details?id=com.dapperartisancompany.nva.wazzle">
-        <img src="https://play-lh.googleusercontent.com/ok9JQXm_tZFWa_FAiT8nXOXlL-Gr3B3XS8DR4CtJd7yTaGrMhwcW8zj_-j32jFJQGoHO=s180-rw">
-        <h2>Wazzle &#169;</h2>
-    </a>
-    </div>
-    </div>
-
-<h1 style="margin: 10px;">- React JS Projects - </h1>
-    <div id="parentTwo">
-
-        <div >
-           
-        
-        </div>
-        <div class="projectItems">
-            <a href="https://coffeeaficionado.herokuapp.com/">
-                <img src ="https://cdn0.iconfinder.com/data/icons/hipster-bright-fill/60/007_-_Coffee_Cup-512.png">
-                <h2>CoffeeAficionado</h2> 
-            </a>
-        </div>
+    <h1 style="margin: 10px;">- Frontend Projects -</h1>
     
-        <div  class="projectItems">
-            <a href="https://weather-card-viewer.herokuapp.com/about">
-            <img src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-01-256.png">
-            <h2>WeatherCardViewer</h2>
-        </a>
+    <div id="projects"class="container p-5">
+    
+
+        <div class="row col-space">
+            <div class="col col-margin"> 
+                <div class="mx-auto card" style="width:300px">
+                    <img class="card-img-top" src="https://cdn0.iconfinder.com/data/icons/hipster-bright-fill/60/007_-_Coffee_Cup-512.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Coffee Aficionado</h4>
+                        <p class="card-text">A React JS project to help you with your cup of joe!</p>
+                        <a href="https://coffeeaficionad.herokuapp.com"
+                        class="btn btn-outline-primary "> See Project</a>
+                    </div>
+                </div>
         </div>
-        <div>
+        <div class="col col-margin"> 
+            <div class="mx-auto card" style="width:300px">
+                <img class="card-img-top" src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-01-256.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Weather Card Viewer</h4>
+                    <p class="card-text">A React JS project that fetches weather data from an API.</p>
+                    <a href="https://weather-card-viewer.herokuapp.com"
+                    class="btn btn-outline-primary "> See Project</a>
+                </div>
             
+    </div>
+    </div>
+        <div class="col col-margin"> 
+            <div class="mx-auto card" style="width:300px">
+                <img class="card-img-top" src="MathManiaLogo.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">MathMania</h4>
+                    <p class="card-text">A fun site for practicing basic arithmetic.</p>
+                    <a href="https://pbaileydev.github.io/MathManiaSite"
+                    class="btn btn-outline-primary"> See Project</a>
+                </div>
+            
+    </div>
+    </div>
+        </div>
+    </div>
+    <h1 style="margin: 10px;">- Android Projects -</h1>
+    <div class="container p-5">
+        
+
+        <div class="row col-space">
+            <div class="col col-margin"> 
+                <div class="mx-auto card" style="width:300px">
+                    <img class="card-img-top" src="https://play-lh.googleusercontent.com/ok9JQXm_tZFWa_FAiT8nXOXlL-Gr3B3XS8DR4CtJd7yTaGrMhwcW8zj_-j32jFJQGoHO=s180-rw" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Wazzle</h4>
+                        <p class="card-text">An innovative contacts app that uses neuroscience to improve performace.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.dapperartisancompany.nva.wazzle"
+                        class="btn btn-outline-primary "> Learn More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col col-margin"> 
+            <div class="mx-auto card" style="width:300px">
+                <img class="card-img-top" src="https://play-lh.googleusercontent.com/gYV80AMtEWpeAgf-pqvLCEAO2zq9VEFX2Up85O6Fbpld9nc_OrkYAm6M8aa-i89xTxA=s180-rw" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Quick Glance Inventory</h4>
+                    <p class="card-text">An intuitive inventory app with built with Kotlin.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.pbaileyapps.quickglanceinventory"
+                    class="btn btn-outline-primary "> Learn More</a>
+                </div>
+            
+    </div>
+    </div>
+        <div class="col col-margin"> 
+            <div class="mx-auto card" style="width:300px">
+                <img class="card-img-top" src="basicupdate.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Basic</h4>
+                    <p class="card-text">A notetaking app built with Java that uses the MVVM architecture.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.pbaileyapps.android.basic"
+                    class="btn btn-outline-primary "> Learn More</a>
+                </div>
+            
+    </div>
+    </div>
+        </div>
+    </div>
+    
+    
            
         </div>
     
@@ -101,19 +155,19 @@
     <br>
     <br>
     </div>
-    <div id="end">
-        <h1>Find Me on These Platforms</h1>
-        <a href="https://play.google.com/store/apps/developer?id=Phillip+Bailey&hl=en_US&gl=US">
-            <img id = "googlePlay" src="https://www.logo.wine/a/logo/Google_Play/Google_Play-Icon-Logo.wine.svg">
+    <footer id="end" class="bg-primary text-white d-flex-column text-center pb-2">
+        <h1 style="color:white">Find Me on These Platforms</h1>
+        <a href="https://angel.co/u/phillip-bailey">
+            <img id = "angellist" src="angellist.png">
         </a>
         <a href="https://www.linkedin.com/in/phillip-bailey-6266591a2/">
             <img id = "linkedin" src="linkedinlogo.svg">
         </a>
         <a href="https://pbaileydev.medium.com/">
-            <img id ="medium" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Medium_Logo.webp">
+            <img id ="medium" src="medium.png">
         </a>
     
-    </div>
+    </footer>
     
 </body>
 </html>
