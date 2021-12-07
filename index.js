@@ -14,6 +14,7 @@ function mathMania(){
 const gitButton = document.getElementById("gitButton");
 
 const toggle = document.getElementById("toggle");
+
 /*function changeTheme(){
     var element = document.body;
    element.classList.toggle("dark-mode");
