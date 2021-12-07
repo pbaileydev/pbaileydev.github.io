@@ -12,6 +12,11 @@ function mathMania(){
     window.location.href='https://github.com/pbaileydev/MathMania'
 }
 const gitButton = document.getElementById("gitButton");
-gitButton.addEventListener('mouseenter', e=>{
-    gitButton.style.backgroundColor = "white";
-});
+
+const toggle = document.getElementById("toggle");
+/*function changeTheme(){
+    var element = document.body;
+   element.classList.toggle("dark-mode");
+   document.getElementById('about').style.color="white";
+
+}*/
