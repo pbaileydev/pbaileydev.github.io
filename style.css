@@ -14,7 +14,9 @@
     background-color: #616161;
     color:white
 }
-
+#socialBar{
+    text-align: right;
+}
 #Phillip{
     height: fit-content;
     width: 100%;
@@ -63,22 +65,27 @@ html{
 }
 #linkedin{
     vertical-align: middle;
-    width: 200px;
-    height: 50px;
-    border-radius: 0%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+p{
+    color: white;
+}
+address a{
+    color: white;
 }
 #angellist{
     vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 0%;
+    width: 35px;
+    height: 40px;
 }
 #medium{
     vertical-align: middle;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
+    background: white;
     border-radius: 100%;
-
 }
 img{
     border:none; 
@@ -152,21 +159,20 @@ body{
         right: 0;
     }
     #linkedin{
-        vertical-align: middle;
-        width: 100px;
+        width: 25px;
         height: 25px;
         border-radius: 0%;
     }
     #angellist{
         vertical-align: middle;
-        width: 30px;
-        height: 35px;
+        width: 20px;
+        height: 25px;
         border-radius: 0%;
     }
     #medium{
         vertical-align: middle;
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
         border-radius: 100%;
     }
     
