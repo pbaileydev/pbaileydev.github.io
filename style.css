@@ -72,6 +72,12 @@ html{
 p{
     color: white;
 }
+#androidProjects p{
+    color:gray
+}
+#projects p{
+    color:gray
+}
 address a{
     color: white;
 }
